@@ -1,4 +1,4 @@
-import Masonry from './Masonry';
+import useMasonryLayout from './useMasonryLayout';
 
-export default Masonry;
-export { default as useMasonryLayout } from './useMasonryLayout';
+export default useMasonryLayout;
+export { default as MasonryLayout } from './Masonry';

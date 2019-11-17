@@ -19,5 +19,9 @@ module.exports = {
     publicPath: '',
     filename: 'masonry.js',
     libraryTarget: 'umd'
+  },
+  externals: {
+    react: 'react',
+    reactDOM: 'react-dom'
   }
 };
