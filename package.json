@@ -1,0 +1,40 @@
+{
+  "name": "react-masonry-layout",
+  "version": "1.0.0",
+  "description": "Simple Masonry Layout using React Hooks",
+  "main": "dist/masonry.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namKolo/react-masonry-layout"
+  },
+  "author": "Nam Tran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/namKolo/react-masonry-layout/issues"
+  },
+  "homepage": "https://github.com/namKolo/react-masonry-layout#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.6.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "flow-bin": "^0.111.1",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.6.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
